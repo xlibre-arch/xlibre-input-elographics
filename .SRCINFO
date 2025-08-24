@@ -7,10 +7,11 @@ pkgbase = xlibre-input-elographics
 	arch = x86_64
 	groups = xlibre-drivers
 	license = MIT
-	makedepends = xlibre-server-devel
+	makedepends = xlibre-xserver-devel
 	makedepends = xorgproto
 	makedepends = X-ABI-XINPUT_VERSION=26.0
 	depends = glibc
+	provides = xf86-input-elographics
 	conflicts = xf86-input-elographics
 	conflicts = xorg-server<21.1.1
 	conflicts = X-ABI-XINPUT_VERSION<26
